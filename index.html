@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>SCodeWebsite</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="logo">
+        <img src="Logo.svg" alt="website-logo" />
+      </div>
+      <ul class="menu">
+        <li data-key="home" class="menu-link">Home</li>
+        <li data-key="projects" class="menu-link">Projects</li>
+        <li data-key="about" class="menu-link">About Us</li>
+        <!-- <li data-key="services" class="menu-link">Services</li> -->
+        <li data-key="contact" class="menu-link">Contact</li>
+      </ul>
+      <button class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <!-- C2A SECTION -->
+
+    <section class="home">
+      <div class="home-content">
+        <h1>SCodeWebsite</h1>
+        <span>Presents</span>
+
+        <main class="projects">
+            <div class="section-title">
+              <p class="section-title-main">Proj</p>
+              <span class="section-title-sub">ects</span>
+            </div>
+            <div class="projects-content">
+              <div class="project-content-card">
+                <img src="first-project.svg" alt="project-image" />
+                <div class="project-info">
+                  <p class="project-name">SCodeRegister</p>
+                  <a href="SCodeRegister.jar" class="project-link">
+                    <img src="code.svg" alt="code-icon" />
+                  </a>
+                </div>
+                <p class="project-description">
+                 Commands:
+                 /login
+                 /register
+                 /changepass
+                </p>
+                <div class="project-technologies">
+                  <p class="technologies-title">Technologies used:</p>
+                  <div class="technologies-icons">
+               <img src="pobrane.png" alt="react-icon">
+                  </div>
+                </div>
+              </div>
+              <div class="project-content-card">
+                <img src="first-project.svg" alt="project-image" />
+                <div class="project-info">
+                  <p class="project-name">SCodeVanish</p>
+                  <a href="SCodeVanish.jar" class="project-link">
+                    <img src="code.svg" alt="code-icon" />
+                  </a>
+                </div>
+                <p class="project-description">
+                 commands:
+                 /vanish
+                </p>
+                <div class="project-technologies">
+                  <p class="technologies-title">Technologies used:</p>
+                  <div class="technologies-icons">
+                   <img src="pobrane.png" alt="react-icon">
+                  </div>
+                </div>
+              </div>
+              <div class="project-content-card">
+                <img src="first-project.svg" alt="project-image" />
+                <div class="project-info">
+                  <p class="project-name">SCodeAutoMessage</p>
+                  <a href="SCodeAutoMessage.jar" class="project-link">
+                    <img src="code.svg" alt="code-icon" />
+                  </a>
+                </div>
+                <p class="project-description">
+                  No commands
+                </p>
+                <div class="project-technologies">
+                  <p class="technologies-title">Technologies used:</p>
+                  <div class="technologies-icons">
+                    <img src="pobrane.png" alt="react-icon" />
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <button class="scroll-down-button">
+        <div class="scroll-down-circle"></div>
+      </button>
+        <div class="section-title">
+              <p class="section-title-main">About</p>
+              <span class="section-title-sub">Us</span>
+              <section class="about"></section>
+              <p></p>
+              <p>Owner: TrasherGaming</p>
+              <p>Admin: None</p>
+              <p>Developer: TrasherGaming, Cyb4r</p>
+          <p>SCode is the new generation of plugins too minecraft.</p>
+            </div>
+      </main>
+    </section>
+      <div class="section-title">
+        <p class="section-title-main">Send A</p>
+        <span class="section-title-sub">Message</span>
+        </div>
+        <section class="contact">
+          <form class="contact-form">
+            <div class="contact-form-field">
+              <label for="name">Name</label>
+              <input type="text" name="name" required>
+            </div>
+            <div class="contact-form-field">
+              <label for="email">Email</label>
+              <input type="email" name="email" required>
+            </div>
+            <div class="contact-form-field">
+              <label for="message">Message</label>
+              <textarea name="message"  cols="30" rows="8"></textarea>
+            </div>
+            <button class="contact-form-btn">Submit</button>
+          </form>
+        </section>
+        <footer>Copyright &copy; 2023 TrasherGaming , All rights reserved</footer>
+<script src="main.js"></script>
+    </body>
+    </html>
